@@ -17,7 +17,11 @@ echo
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo systemctl enable docker
-echo
+sleep 3
+echo "ALMOST DONE"
+sleep 2
+sudo systemctl status docker
+sleep 3
 echo “IT IS DONE,THANKS FOR YOUR PATIENCE”
 sleep 4
 
