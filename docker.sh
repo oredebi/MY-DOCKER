@@ -4,7 +4,7 @@
 #Date: 02/25/2022
  
 echo “WELCOME TO DOCKER INSTALLATION ON CENTOS”
-sleep3
+sleep 3
 
 sudo yum remove docker  docker-client docker-client-latest docker-common  docker-latest  docker-latest-logrotate docker-logrotate  docker-engine
 echo
